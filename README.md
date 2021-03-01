@@ -22,7 +22,7 @@ Using a ubuntu docker ,configuring tmate and *forcing* the build to fail, users 
 
 #### - How to deploy ####
 
-- Setup DroneCI on your own account (ofc lol)
+- Setup DroneCI on your own account (more instructions [here](https://gist.github.com/JamieHoSzeYui/5eff02ff278c983c66f818d2d5e612ad))
 
 - Fork this repo
 
