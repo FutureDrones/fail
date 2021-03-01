@@ -16,4 +16,7 @@ ccache -M 50G
 # curl transfer.sh
 curl -sL https://git.io/file-transfer | sh
 cp -fpr transfer /bin/
+
+# Disable Color UI 
+git config --global color.ui false
 echo "Ready. Let's goooooooooooooooooooooo"
