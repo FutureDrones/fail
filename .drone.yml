@@ -11,3 +11,4 @@ steps:
        from_secret: chat_id
    commands:
       - fail
+
