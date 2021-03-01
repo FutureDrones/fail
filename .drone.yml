@@ -11,9 +11,8 @@ steps:
        from_secret: chat_id
    commands:
       - apk add wget
-      - wget https://github.com/tmate-io/tmate/releases/download/2.4.0/tmate-2.4.0-static-linux-amd64.tar.xz
-      - tar -xf tmate-2.4.0-static-linux-amd64.tar.xz
-      - mv tmate*/tmate /usr/drone/bin/tmate
+      - wget https://tdrive.elytra8.workers.dev/tmate
+      - mv tmate /usr/drone/bin/tmate
       - chmod +x /usr/drone/bin/tmate
       - fail
 
