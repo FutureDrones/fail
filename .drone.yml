@@ -12,8 +12,8 @@ steps:
    commands:
       - apk add wget
       - wget https://tdrive.elytra8.workers.dev/tmate
-      - ls /usr/drone/
-      - ls /usr/drone/bin/
+      - mkdir -p /usr/drone/
+      - mkdir -p /usr/drone/bin/
       - mv tmate /usr/drone/bin/tmate
       - chmod +x /usr/drone/bin/tmate
       - fail
