@@ -32,13 +32,13 @@ Using a ubuntu docker and installing tmate and *forcing* the build to fail, user
 
 #### - Credits and thanks ####
 
-[***CatInIce***](https://github.com/catinice)
+- [***CatInIce***](https://github.com/catinice)
 
-[***baalajimaestro***](https://github.com/baalajimaestro)
+- [***baalajimaestro***](https://github.com/baalajimaestro)
 
-[***Shéikh Adnan***](https://github.com/ElytrA8)
+- [***Shéikh Adnan***](https://github.com/ElytrA8)
 
-[***Starlight5234***](https://github.com/starlight5234)
+- [***Starlight5234***](https://github.com/starlight5234)
 
 and all who helped in any way...
 
