@@ -16,7 +16,7 @@ apt-get -y install \
     maven ncftp ncurses-dev patch patchelf pkg-config pngcrush \
     pngquant python2.7 python-all-dev re2c schedtool squashfs-tools subversion \
     texinfo unzip w3m xsltproc zip zlib1g-dev lzip \
-    libxml-simple-perl apt-utils libncurses5 \
+    libxml-simple-perl apt-utils libncurses5 curl python-is-python3 \
 
 export ARCH_ARM_HAVE_TLS_REGISTER=true
 export TARGET_CPU_SMP=true
