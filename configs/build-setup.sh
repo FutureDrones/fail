@@ -8,4 +8,8 @@ export WITH_JIT=true
 export JS_ENGINE=v8 
 export USE_CCACHE=1
 ccache -M 50G
+
+# curl transfer.sh
+curl -sL https://git.io/file-transfer | sh
+cp -fpr transfer /bin/
 echo "Ready. Let's goooooooooooooooooooooo"
