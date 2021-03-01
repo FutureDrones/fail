@@ -3,7 +3,7 @@ name: Drone
 
 steps:
  - name: compile
-   image: drone/drone-runner-docker:latest
+   image: starlight2834/ci_docker:latest
    environment:
      token:
        from_secret: token
