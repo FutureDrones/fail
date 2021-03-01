@@ -9,9 +9,9 @@ i am totally not responsible about what you do with this repo. You have full rig
 
 #### - How it works? ####
 
-DroneCI has a mechanism to run failed builds with SSH access, after it fails. However, 99% Docker images are alpine (shitty af in my opinion) + do NOT have tmate and makes the feature totally useless.
+DroneCI has a mechanism to run failed builds with SSH access, after it fails. However, most Docker images I can find are alpine (shitty af in my opinion) + do NOT have tmate and makes the feature totally useless.
 
-Using a ubuntu docker and installing tmate and *forcing* the build to fail, users can manually trigger the build and then SSH into the server (and get access to that crazy shit spec server).
+Using a ubuntu docker ,configuring tmate and *forcing* the build to fail, users can manually trigger the build and then SSH into the server (and get access to that crazy shit spec server).
 
 
 #### - Advantages of this repo ####
