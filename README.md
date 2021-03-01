@@ -52,6 +52,6 @@ and all who helped in any way...
 
 #### - Useful screenshots ####
 
-- [***System specs***](https://github.com/FutureDrones/fail-p/raw/main/.github/specs.png)
+- [***System specs***](https://github.com/FutureDrones/fail/raw/main/.github/specs.png)
 
-- [***Disk Space***](https://github.com/FutureDrones/fail-p/raw/main/.github/disks.png)
+- [***Disk Space***](https://github.com/FutureDrones/fail/raw/main/.github/disks.png)
