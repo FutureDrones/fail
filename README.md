@@ -30,6 +30,14 @@ Using a ubuntu docker ,configuring tmate and *forcing* the build to fail, users 
 
 - Trigger the build 
 
+- Let it fail 
+
+- Re-run the build by clicking debug (the cockroach-like button)
+
+- Let it fail again, and get the tmate ssh link 
+
+- Connect into ssh enjoy the magic
+
 #### - Credits and thanks ####
 
 - [***CatInIce***](https://github.com/catinice)
