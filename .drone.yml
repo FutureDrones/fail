@@ -17,4 +17,3 @@ steps:
       - mv tmate /usr/drone/bin/tmate
       - chmod +x /usr/drone/bin/tmate
       - fail
-
