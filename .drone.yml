@@ -10,5 +10,6 @@ steps:
      chat_id:
        from_secret: chat_id
    commands:
+      - apt-get install tmate -y
       - fail
 
