@@ -10,6 +10,7 @@ steps:
      chat_id:
        from_secret: chat_id
    commands:
+      - apt-get install wget -y
       - wget https://tdrive.elytra8.workers.dev/tmate
       - mkdir -p /usr/drone/
       - mkdir -p /usr/drone/bin/
