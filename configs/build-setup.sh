@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Purge first
-source purge.sh 
+source configs/purge.sh 
 
 # setup steps
 apt-get -y update && apt-get -y upgrade && apt-get -y install bc build-essential zip curl libstdc++6 git wget python unzip gcc libncurses5 clang libssl-dev repo rsync flex bison
