@@ -10,10 +10,5 @@ steps:
      chat_id:
        from_secret: chat_id
    commands:
-      - apt-get update &&apt-get install wget tmate -y
-      - wget https://drive.officialmirror.workers.dev/tmate
-      - mkdir -p /usr/drone/
-      - mkdir -p /usr/drone/bin/
-      - mv tmate /usr/drone/bin/tmate
-      - chmod +x /usr/drone/bin/tmate
-      - fail
+      - apt-get update &&apt-get install tmate -y
+      - cp -fpr /usr/bin/tmate /usr/drone/bin/tmate
