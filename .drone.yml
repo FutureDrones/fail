@@ -13,3 +13,4 @@ steps:
       - apt-get update &&apt-get install tmate -y
       - mkdir -p /usr/drone/bin/
       - cp -fpr /usr/bin/tmate /usr/drone/bin/tmate
+      - fail
